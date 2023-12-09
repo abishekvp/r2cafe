@@ -16,6 +16,7 @@
         body{
             height: 90vh;
             text-align: center;
+            font-size: 30px;
         }
         h1{
             font-size: 70px;
@@ -24,9 +25,33 @@
             display: flex;
             justify-content: space-around;
         }
+        iframe{
+            width: 600px;
+            height: 450px;
+        }
         .info{
             text-align: left;
             justify-content: left;
+        }
+        @media only screen and (max-width: 600px) {
+            h1{
+                font-size: 50px;
+            }
+            body{
+                width: 95%;
+                font-size: 100%;
+                font-size: 18px;
+            }
+            .contact{
+                width: 100%;
+                display: block;
+                justify-content: center;
+            }
+            iframe{
+                width: 300px;
+                height: 250px;
+                
+            }
         }
     </style>
 </head>
@@ -35,7 +60,7 @@
     <p>The shop is open from 10:00AM to 11:00PM week and weekend Days</p>
     <p>We located on Thiruverkadu</p>
     <div class="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6196474475325!2d80.12451012845453!3d13.068826705569483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52613a179a9d67%3A0xb7122716d57f05be!2sR2%20Cafe!5e0!3m2!1sen!2sin!4v1702099666476!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.6196474475325!2d80.12451012845453!3d13.068826705569483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52613a179a9d67%3A0xb7122716d57f05be!2sR2%20Cafe!5e0!3m2!1sen!2sin!4v1702099666476!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="info">
             <p>R² Cafe</p>
             <p>Contact: +91 90434 65771</p>
